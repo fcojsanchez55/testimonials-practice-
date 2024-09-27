@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: indianred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .card{
+    width: 45rem;
+    height: 15rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+                 rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 15rem;
+    position: relative;
+    
+}
+
+.icon-1{
+    align-self: flex-start;
+  
+}
+
+.container-card-paragraph{
+    text-align: center;
+    margin: 0 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.icon-2{
+    align-self: flex-end;
+   
+}
+
+.container-bottom{
+    width: 45rem;
+    height: 16rem;
+    background-color: white;
+    margin-top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+
+.container-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-bottom .icon-face{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100%;
+    position: relative;
+    top: -5rem;
+
+    border: solid 5px orange;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.stars{
+
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.profile p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.profile p span{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}
